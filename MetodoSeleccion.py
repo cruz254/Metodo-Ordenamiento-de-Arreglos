@@ -2,7 +2,7 @@
 # Observación: Solo funciona si el arreglo no tiene elementos repetidos
 # Autor: Javier Rivera (UNEFA Mérida)
 
-def OrdSeleccion:
+def OrdSeleccion(arreglo):
     menor = arreglo[0]
     for i in range(len(arreglo)):
         menor = arreglo[i]
